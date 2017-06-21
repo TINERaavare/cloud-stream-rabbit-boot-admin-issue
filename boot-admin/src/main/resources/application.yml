@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: boot-admin
+security:
+  user:
+    name: admin
+    password: admin
+management:
+  security:
+    enabled: false
