@@ -1,0 +1,26 @@
+server:
+  port: 8301
+management:
+  security:
+    enabled: false
+spring:
+  application:
+    name: cloud-stream-rabbit
+  cloud:
+    stream:
+      bindings:
+        pingOutput:
+          destination: ping
+        pingInput:
+          destination: ping
+      binders:
+        rabbitBinder:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: "rabbitmq-host"
+                port: 5672
+                virtual-host: "my-virtual-host"
+                username: "user"
+                password: "pass"
