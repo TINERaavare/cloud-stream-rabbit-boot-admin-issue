@@ -11,7 +11,7 @@ Steps to reproduce:
 * Start RabbitMQ and update configuration in cloud-stream-rabbit\src\main\resource\application.yml
 * Start cloud-stream-rabbit and watch logs (and boot-admin dashboard). 
 
-Logs should show helth check failures against rabbitmq. There should also be a "Hello"-message printed to console every second. 
+Logs should show health check failures against rabbitmq. There should also be a "Hello"-message printed to console every second. 
 This message is sent from PingService to rabbitmq and processed by PingProcessor.
 
 Stacktrace for health check failure:
