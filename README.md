@@ -1,8 +1,10 @@
 # cloud-stream-rabbit-boot-admin-issue
 
 Stackoverflow question:
-
 https://stackoverflow.com/questions/44683347/spring-cloud-stream-and-rabbitmq-health-check
+
+Spring Cloud Stream GitHub issue:
+https://github.com/spring-cloud/spring-cloud-stream/issues/998
 
 Steps to reproduce:
 
